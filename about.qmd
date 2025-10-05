@@ -1,13 +1,30 @@
 ---
-title: "About"
+title: "About me"
 image: profile.jpg
 about:
   template: jolla
   links:
     - icon: github
       text: Github
-      href: https://github.com/etc5523-2022
+      href: https://github.com/yluu0123
+    - icon: linkedin
+      text: Linkedin
+      href: https://www.linkedin.com/in/yao-lu-7a3a632bb
+    - icon: envelope
+      text: Email
+      href: mailto:yluu0123@student.monash.edu
 
 ---
 
-This is a blog template for the ETC5523 Communicating with Data assessment at Monash University.
+Hi! I’m **Yao Lu**, a Master of Business Analytics student at **Monash University**.  
+I enjoy turning messy data into clear, decision-ready stories. I work mainly in **R** (tidyverse, ggplot2, gt), **Quarto**, and **Git/GitHub**; I’m also comfortable with **Python** and **SQL**.
+
+### Skills
+- Data wrangling & visualisation (tidyverse, ggplot2, gt)
+- Communicating with Data (Quarto, cross-refs, citations)
+- Reproducible workflows (Git/GitHub)
+- Basic Python & SQL for analytics
+
+---
+
+This site is built with **Quarto** and published via **GitHub Pages** as part of **ETC5523 – Communicating with Data**.
