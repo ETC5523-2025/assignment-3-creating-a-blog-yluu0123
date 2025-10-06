@@ -2,3 +2,21 @@
 .navbar-dark, .quarto-title-banner {
   background-color: #006DAE;
 }
+
+h1, h2, h3 {
+  color: #004B87;
+  line-height: 1.25;
+}
+
+table {
+  font-size: 0.95rem;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 0.4rem 0.6rem;
+}
+
+a:hover {
+  color: #0078d7;
+}

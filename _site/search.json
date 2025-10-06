@@ -4,7 +4,7 @@
     "href": "about.html",
     "title": "About me",
     "section": "",
-    "text": "Hi! I’m Yao Lu, a Master of Business Analytics student at Monash University.\nI enjoy turning messy data into clear, decision-ready stories. I work mainly in R (tidyverse, ggplot2, gt), Quarto, and Git/GitHub; I’m also comfortable with Python and SQL.\n\nSkills\n\nData wrangling & visualisation (tidyverse, ggplot2, gt)\nCommunicating with Data (Quarto, cross-refs, citations)\nReproducible workflows (Git/GitHub)\nBasic Python & SQL for analytics\n\n\nThis site is built with Quarto and published via GitHub Pages as part of ETC5523 – Communicating with Data."
+    "text": "Hi! I’m Yao Lu, a Master of Business Analytics student at Monash University.\nI enjoy turning messy data into clear, decision-ready stories. I work mainly in R (tidyverse, ggplot2), Quarto, and Git/GitHub; I’m also comfortable with Python and SQL.\n\nSkills\n\nData wrangling & visualisation (tidyverse, ggplot2, gt)\nCommunicating with Data (Quarto, cross-refs, citations)\nReproducible workflows (Git/GitHub)\nBasic Python & SQL for analytics\n\n\nThis site is built with Quarto and published via GitHub Pages as part of ETC5523 – Communicating with Data."
   },
   {
     "objectID": "posts/welcome/index.html",

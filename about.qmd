@@ -1,6 +1,6 @@
 ---
 title: "About me"
-image: profile.jpg
+image: Lu Yao Photo.jpg
 about:
   template: jolla
   links:
@@ -17,7 +17,7 @@ about:
 ---
 
 Hi! I’m **Yao Lu**, a Master of Business Analytics student at **Monash University**.  
-I enjoy turning messy data into clear, decision-ready stories. I work mainly in **R** (tidyverse, ggplot2, gt), **Quarto**, and **Git/GitHub**; I’m also comfortable with **Python** and **SQL**.
+I enjoy turning messy data into clear, decision-ready stories. I work mainly in **R** (tidyverse, ggplot2), **Quarto**, and **Git/GitHub**; I’m also comfortable with **Python** and **SQL**.
 
 ### Skills
 - Data wrangling & visualisation (tidyverse, ggplot2, gt)
