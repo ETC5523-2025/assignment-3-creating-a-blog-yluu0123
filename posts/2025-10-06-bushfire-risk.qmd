@@ -1,0 +1,16 @@
+---
+title: "Has climate change raised extreme bushfire weather risk in SE Australia?"
+author: "Yao Lu"
+date: 2025-10-06
+categories: [Australia, Climate, Risk]
+---
+
+## Why this matters (Problem)
+
+Australia’s 2019–20 **“Black Summer”** killed 34 people, destroyed thousands of homes, and caused major environmental damage.\
+This post asks a simple, public-facing question:\
+
+\> *Has human-driven climate change increased the chance of extreme fire weather in south-east Australia?*
+
+Researchers comparing today’s climate with a pre-industrial world find that the chance of an **extreme Fire Weather Index (FWI) season** is now **about 30% higher**.
+
