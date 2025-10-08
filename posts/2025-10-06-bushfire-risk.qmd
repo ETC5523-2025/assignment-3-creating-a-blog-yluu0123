@@ -1,5 +1,5 @@
 ---
-title: "Has climate change raised extreme bushfire weather risk in SE Australia?"
+title: "Has Climate Change Raised the Risk of Extreme Bushfire Weather in Australia?"
 author: "Yao Lu"
 date: 2025-10-06
 categories: [Australia, Climate, Risk]
@@ -13,4 +13,31 @@ This post asks a simple, public-facing question:\
 \> *Has human-driven climate change increased the chance of extreme fire weather in south-east Australia?*
 
 Researchers comparing today’s climate with a pre-industrial world find that the chance of an **extreme Fire Weather Index (FWI) season** is now **about 30% higher**.
+
+##  Data Description
+
+The study integrates both **observations** and **model experiments**
+
+- **ERA5 Reanalysis (1979–2020)** – temperature, rainfall and drought indices (Hersbach et al., 2019).  
+- **Bureau of Meteorology Fire Weather Index (FWI)** – the key indicator of bushfire danger (Dowdy 2018).  
+- **Climate models (CMIP5/6 ensembles)** – simulations with and without greenhouse gases to separate human influence (van Oldenborgh et al., 2021).
+
+An “extreme season” was defined as any year with a **seasonal maximum FWI ≥ 2019–20**.  
+Event probabilities were estimated using extreme-value fits for both climates; the **Probability Ratio (PR)** = _current / pre-industrial risk_.  
+
+Below is a simple visualisation of this idea (not real data but representative of their result).
+
+```{r}
+#| label: fig-pr
+#| fig-cap: "Estimated Probability Ratio (PR) for an extreme FWI season under current vs pre-industrial climate."
+library(ggplot2)
+df <- data.frame(pr = 1.3, lo = 1.1, hi = 1.6)
+ggplot(df, aes(x="PR")) +
+  geom_col(aes(y=pr), fill="#006DAE") +
+  geom_errorbar(aes(ymin=lo, ymax=hi), width=0.15) +
+  coord_cartesian(ylim=c(0,2)) +
+  labs(y="Current / Pre-industrial risk", x=NULL) +
+  theme_minimal(base_size=13)
+```
+
 
