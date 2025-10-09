@@ -1,14 +1,14 @@
 [
   {
-    "listing": "/index.html",
+    "listing": "/posts/index.html",
     "items": [
-      "/posts/index.html",
       "/posts/2025-10-06-bushfire-risk.html"
     ]
   },
   {
-    "listing": "/posts/index.html",
+    "listing": "/index.html",
     "items": [
+      "/posts/index.html",
       "/posts/2025-10-06-bushfire-risk.html"
     ]
   }

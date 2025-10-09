@@ -7,18 +7,11 @@
     "text": "Hi! I’m Yao Lu, a Master of Business Analytics student at Monash University.\nI enjoy turning messy data into clear, decision-ready stories. I work mainly in R (tidyverse, ggplot2), Quarto, and Git/GitHub; I’m also comfortable with Python and SQL.\n\nSkills\n\nData wrangling & visualisation (tidyverse, ggplot2, gt)\nCommunicating with Data (Quarto, cross-refs, citations)\nReproducible workflows (Git/GitHub)\nBasic Python & SQL for analytics\n\n\nThis site is built with Quarto and published via GitHub Pages as part of ETC5523 – Communicating with Data."
   },
   {
-    "objectID": "posts/welcome/index.html",
-    "href": "posts/welcome/index.html",
-    "title": "Welcome To My Blog Template",
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Blog",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!"
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Data Stories by Yao Lu",
-    "section": "",
-    "text": "Welcome to my ETC5523 Data Story Blog! 🌏\nHere you’ll find my data communication projects developed as part of\nMonash University’s ETC5523 — Communicating with Data.\nYou can read my latest post here 👇\n➡️ Has Climate Change Raised the Risk of Extreme Bushfire Weather in Australia?\n\nBuilt with Quarto and published on Quarto Pub for ETC5523 assessment.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHas Climate Change Raised the Risk of Extreme Bushfire Weather in Australia?\n\n\n\nAustralia\n\nClimate\n\nRisk\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nYao Lu\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my data storytelling blog! ✨\nHere you’ll find my latest posts on communicating with data and analytics.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHas Climate Change Raised the Risk of Extreme Bushfire Weather in Australia?\n\n\n\nAustralia\n\nClimate\n\nRisk\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nYao Lu\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2025-10-06-bushfire-risk.html",
@@ -26,20 +19,6 @@
     "title": "Has Climate Change Raised the Risk of Extreme Bushfire Weather in Australia?",
     "section": "",
     "text": "Australia’s 2019–20 “Black Summer” bushfires were among the most devastating in history—34 people lost their lives, thousands of homes were destroyed, and millions of hectares burned.\nThese events raised an urgent question:\n&gt; Has climate change increased the likelihood of extreme bushfi44re weather in southeast Australia?\nThis blog summarises the findings of van Oldenborgh et al. (2021), who combined observed weather records and climate-model simulations to quantify the human influence on bushfire risk.\nTheir results show that the probability of an extreme Fire Weather Index (FWI) season is now about 30% higher than it was in a pre-industrial climate."
-  },
-  {
-    "objectID": "posts/2025-10-06-bushfire-risk.html#why-this-matters-problem",
-    "href": "posts/2025-10-06-bushfire-risk.html#why-this-matters-problem",
-    "title": "Has Climate Change Raised the Risk of Extreme Bushfire Weather in Australia?",
-    "section": "",
-    "text": "Australia’s 2019–20 “Black Summer” killed 34 people, destroyed thousands of homes, and caused major environmental damage.\nThis post asks a simple, public-facing question:\n\n&gt; Has human-driven climate change increased the chance of extreme fire weather in south-east Australia?\nResearchers comparing today’s climate with a pre-industrial world find that the chance of an extreme Fire Weather Index (FWI) season is now about 30% higher."
-  },
-  {
-    "objectID": "posts/2025-10-06-bushfire-risk.html#data-description",
-    "href": "posts/2025-10-06-bushfire-risk.html#data-description",
-    "title": "Has Climate Change Raised the Risk of Extreme Bushfire Weather in Australia?",
-    "section": "Data Description",
-    "text": "Data Description\nThe study integrates both observations and model experiments\n\nERA5 Reanalysis (1979–2020) – temperature, rainfall and drought indices (Hersbach et al., 2019).\n\nBureau of Meteorology Fire Weather Index (FWI) – the key indicator of bushfire danger (Dowdy 2018).\n\nClimate models (CMIP5/6 ensembles) – simulations with and without greenhouse gases to separate human influence (van Oldenborgh et al., 2021).\n\nAn “extreme season” was defined as any year with a seasonal maximum FWI ≥ 2019–20.\nEvent probabilities were estimated using extreme-value fits for both climates; the Probability Ratio (PR) = current / pre-industrial risk.\nBelow is a simple visualisation of this idea (not real data but representative of their result).\n\nlibrary(ggplot2)\ndf &lt;- data.frame(pr = 1.3, lo = 1.1, hi = 1.6)\nggplot(df, aes(x=\"PR\")) +\n  geom_col(aes(y=pr), fill=\"#006DAE\") +\n  geom_errorbar(aes(ymin=lo, ymax=hi), width=0.15) +\n  coord_cartesian(ylim=c(0,2)) +\n  labs(y=\"Current / Pre-industrial risk\", x=NULL) +\n  theme_minimal(base_size=13)\n\n\n\n\n\n\n\nFigure 1: Estimated Probability Ratio (PR) for an extreme FWI season under current vs pre-industrial climate."
   },
   {
     "objectID": "posts/2025-10-06-bushfire-risk.html#problem-description",
@@ -70,10 +49,10 @@
     "text": "🧠 Conclusion\nHuman-induced climate change has shifted Australia’s baseline bushfire risk upward.\nEven though natural variability still affects individual seasons, the overall odds are now “loaded” toward hotter, more dangerous summers.\nTo prepare for this new normal, researchers and decision-makers should:\n1. Integrate climate-scenario data into bushfire management and planning.\n2. Strengthen early-warning systems and community education.\n3. Continue fuel-load and land-use management to reduce fire intensity.\nAs (Oldenborgh et al. 2021) and (Dowdy 2018) highlight, adapting to this warmer world requires both mitigation of greenhouse emissions and practical resilience strategies.\n\nThis post was created as part of Monash University’s ETC5523 unit — Communicating with Data."
   },
   {
-    "objectID": "posts/index.html",
-    "href": "posts/index.html",
-    "title": "Blog",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data Stories by Yao Lu",
     "section": "",
-    "text": "Welcome to my data storytelling blog! ✨\nHere you’ll find my latest posts on communicating with data and analytics.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHas Climate Change Raised the Risk of Extreme Bushfire Weather in Australia?\n\n\n\nAustralia\n\nClimate\n\nRisk\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nYao Lu\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my ETC5523 Data Story Blog! 🌏\nHere you’ll find my data communication projects developed as part of\nMonash University’s ETC5523 — Communicating with Data.\nYou can read my latest post here 👇\n➡️ Has Climate Change Raised the Risk of Extreme Bushfire Weather in Australia?\n\nBuilt with Quarto and published on Quarto Pub for ETC5523 assessment.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHas Climate Change Raised the Risk of Extreme Bushfire Weather in Australia?\n\n\n\nAustralia\n\nClimate\n\nRisk\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nYao Lu\n\n\n\n\n\nNo matching items"
   }
 ]
