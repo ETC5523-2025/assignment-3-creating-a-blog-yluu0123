@@ -25,7 +25,7 @@
     "href": "posts/2025-10-06-bushfire-risk.html",
     "title": "Has Climate Change Raised the Risk of Extreme Bushfire Weather in Australia?",
     "section": "",
-    "text": "Australia’s 2019–20 “Black Summer” killed 34 people, destroyed thousands of homes, and caused major environmental damage.\nThis post asks a simple, public-facing question:\n\n&gt; Has human-driven climate change increased the chance of extreme fire weather in south-east Australia?\nResearchers comparing today’s climate with a pre-industrial world find that the chance of an extreme Fire Weather Index (FWI) season is now about 30% higher."
+    "text": "Australia’s 2019–20 “Black Summer” bushfires were among the most devastating in history—34 people lost their lives, thousands of homes were destroyed, and millions of hectares burned.\nThese events raised an urgent question:\n&gt; Has climate change increased the likelihood of extreme bushfire weather in southeast Australia?\nThis blog summarises the findings of van Oldenborgh et al. (2021), who combined observed weather records and climate-model simulations to quantify the human influence on bushfire risk.\nTheir results show that the probability of an extreme Fire Weather Index (FWI) season is now about 30% higher than it was in a pre-industrial climate."
   },
   {
     "objectID": "posts/2025-10-06-bushfire-risk.html#why-this-matters-problem",
@@ -46,6 +46,20 @@
     "href": "posts/2025-10-06-bushfire-risk.html#problem-description",
     "title": "Has Climate Change Raised the Risk of Extreme Bushfire Weather in Australia?",
     "section": "",
-    "text": "Australia’s 2019–20 “Black Summer” bushfires were among the worst on record—34 people lost their lives, thousands of homes were destroyed, and millions of hectares burned.\nScientists and policymakers have since asked a critical question:\n&gt; Has climate change increased the likelihood of extreme bushfire weather in southeast Australia?\nThis post summarises the findings of van Oldenborgh et al. (2021), which used observed and modelled weather data to estimate how much human influence has changed the probability of severe fire weather. Their results reveal that the chance of an extreme Fire Weather Index (FWI) season is now about 30 percent higher than in a pre-industrial climate."
+    "text": "Australia’s 2019–20 “Black Summer” bushfires were among the most devastating in history—34 people lost their lives, thousands of homes were destroyed, and millions of hectares burned.\nThese events raised an urgent question:\n&gt; Has climate change increased the likelihood of extreme bushfire weather in southeast Australia?\nThis blog summarises the findings of van Oldenborgh et al. (2021), who combined observed weather records and climate-model simulations to quantify the human influence on bushfire risk.\nTheir results show that the probability of an extreme Fire Weather Index (FWI) season is now about 30% higher than it was in a pre-industrial climate."
+  },
+  {
+    "objectID": "posts/2025-10-06-bushfire-risk.html#data-and-findings",
+    "href": "posts/2025-10-06-bushfire-risk.html#data-and-findings",
+    "title": "Has Climate Change Raised the Risk of Extreme Bushfire Weather in Australia?",
+    "section": "🌏 Data and Findings",
+    "text": "🌏 Data and Findings\nThe study used multiple independent data sources:\n\nERA5 Reanalysis (1979–2020) — records of temperature, rainfall, humidity, and wind (Hersbach et al., 2019)\n\nBureau of Meteorology Fire Weather Index (FWI) — a measure of daily bushfire danger (Dowdy 2018)\n\nClimate-model ensembles (CMIP5/6) — simulations comparing current and pre-industrial climate worlds (van Oldenborgh et al., 2021)\n\nTogether, these sources reveal a clear upward shift in fire-weather risk.\nAcross all datasets, extreme FWI seasons are roughly 30% more likely in the present climate, and extreme heat events occur about twice as often, while dryness signals remain weak or uncertain."
+  },
+  {
+    "objectID": "posts/2025-10-06-bushfire-risk.html#analysis",
+    "href": "posts/2025-10-06-bushfire-risk.html#analysis",
+    "title": "Has Climate Change Raised the Risk of Extreme Bushfire Weather in Australia?",
+    "section": "📈 Analysis",
+    "text": "📈 Analysis\n\n🔹 Figure 1 – Probability Ratio (PR)\n\n\n\n\n\n\nFigure 1\n\n\n\nFigure 1. Probability ratio (PR) for an FWI as high as observed in 2019–20 or higher, based on multiple climate models.\nSource: van Oldenborgh et al. (2021), Figure 6(a).\nAs shown in Figure 1, all five model ensembles (ERA5, CanESM2, EC-Earth, IPSL-CM6, and weather@home) show PR &gt; 1, meaning extreme fire-weather seasons are now more likely than before industrialisation."
   }
 ]

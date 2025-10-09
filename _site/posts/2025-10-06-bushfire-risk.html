@@ -22,41 +22,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-html { -webkit-text-size-adjust: 100%; }
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -197,8 +162,12 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#why-this-matters-problem" id="toc-why-this-matters-problem" class="nav-link active" data-scroll-target="#why-this-matters-problem">Why this matters (Problem)</a></li>
-  <li><a href="#data-description" id="toc-data-description" class="nav-link" data-scroll-target="#data-description">Data Description</a></li>
+  <li><a href="#problem-description" id="toc-problem-description" class="nav-link active" data-scroll-target="#problem-description">🔥 Problem Description</a></li>
+  <li><a href="#data-and-findings" id="toc-data-and-findings" class="nav-link" data-scroll-target="#data-and-findings">🌏 Data and Findings</a></li>
+  <li><a href="#analysis" id="toc-analysis" class="nav-link" data-scroll-target="#analysis">📈 Analysis</a>
+  <ul class="collapse">
+  <li><a href="#figure-1-probability-ratio-pr" id="toc-figure-1-probability-ratio-pr" class="nav-link" data-scroll-target="#figure-1-probability-ratio-pr">🔹 Figure 1 – Probability Ratio (PR)</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -209,51 +178,49 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 
 
 
-<section id="why-this-matters-problem" class="level2">
-<h2 class="anchored" data-anchor-id="why-this-matters-problem">Why this matters (Problem)</h2>
-<p>Australia’s 2019–20 <strong>“Black Summer”</strong> killed 34 people, destroyed thousands of homes, and caused major environmental damage.<br>
-This post asks a simple, public-facing question:<br>
-</p>
-<p>&gt; <em>Has human-driven climate change increased the chance of extreme fire weather in south-east Australia?</em></p>
-<p>Researchers comparing today’s climate with a pre-industrial world find that the chance of an <strong>extreme Fire Weather Index (FWI) season</strong> is now <strong>about 30% higher</strong>.</p>
+<section id="problem-description" class="level2">
+<h2 class="anchored" data-anchor-id="problem-description">🔥 Problem Description</h2>
+<p>Australia’s <strong>2019–20 “Black Summer”</strong> bushfires were among the most devastating in history—34 people lost their lives, thousands of homes were destroyed, and millions of hectares burned.<br>
+These events raised an urgent question:<br>
+&gt; <em>Has climate change increased the likelihood of extreme bushfire weather in southeast Australia?</em></p>
+<p>This blog summarises the findings of <em>van Oldenborgh et al.</em> (2021), who combined observed weather records and climate-model simulations to quantify the human influence on bushfire risk.<br>
+Their results show that the probability of an <strong>extreme Fire Weather Index (FWI) season</strong> is now <strong>about 30% higher</strong> than it was in a pre-industrial climate.</p>
+<hr>
 </section>
-<section id="data-description" class="level2">
-<h2 class="anchored" data-anchor-id="data-description">Data Description</h2>
-<p>The study integrates both <strong>observations</strong> and <strong>model experiments</strong></p>
+<section id="data-and-findings" class="level2">
+<h2 class="anchored" data-anchor-id="data-and-findings">🌏 Data and Findings</h2>
+<p>The study used multiple independent data sources:</p>
 <ul>
-<li><strong>ERA5 Reanalysis (1979–2020)</strong> – temperature, rainfall and drought indices (Hersbach et al., 2019).<br>
+<li><strong>ERA5 Reanalysis (1979–2020)</strong> — records of temperature, rainfall, humidity, and wind (Hersbach et al., 2019)<br>
 </li>
-<li><strong>Bureau of Meteorology Fire Weather Index (FWI)</strong> – the key indicator of bushfire danger (Dowdy 2018).<br>
+<li><strong>Bureau of Meteorology Fire Weather Index (FWI)</strong> — a measure of daily bushfire danger (Dowdy 2018)<br>
 </li>
-<li><strong>Climate models (CMIP5/6 ensembles)</strong> – simulations with and without greenhouse gases to separate human influence (van Oldenborgh et al., 2021).</li>
+<li><strong>Climate-model ensembles (CMIP5/6)</strong> — simulations comparing current and pre-industrial climate worlds (van Oldenborgh et al., 2021)</li>
 </ul>
-<p>An “extreme season” was defined as any year with a <strong>seasonal maximum FWI ≥ 2019–20</strong>.<br>
-Event probabilities were estimated using extreme-value fits for both climates; the <strong>Probability Ratio (PR)</strong> = <em>current / pre-industrial risk</em>.</p>
-<p>Below is a simple visualisation of this idea (not real data but representative of their result).</p>
-<div class="cell">
-<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(<span class="at">pr =</span> <span class="fl">1.3</span>, <span class="at">lo =</span> <span class="fl">1.1</span>, <span class="at">hi =</span> <span class="fl">1.6</span>)</span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df, <span class="fu">aes</span>(<span class="at">x=</span><span class="st">"PR"</span>)) <span class="sc">+</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_col</span>(<span class="fu">aes</span>(<span class="at">y=</span>pr), <span class="at">fill=</span><span class="st">"#006DAE"</span>) <span class="sc">+</span></span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_errorbar</span>(<span class="fu">aes</span>(<span class="at">ymin=</span>lo, <span class="at">ymax=</span>hi), <span class="at">width=</span><span class="fl">0.15</span>) <span class="sc">+</span></span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_cartesian</span>(<span class="at">ylim=</span><span class="fu">c</span>(<span class="dv">0</span>,<span class="dv">2</span>)) <span class="sc">+</span></span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">y=</span><span class="st">"Current / Pre-industrial risk"</span>, <span class="at">x=</span><span class="cn">NULL</span>) <span class="sc">+</span></span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>(<span class="at">base_size=</span><span class="dv">13</span>)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
-<div class="cell-output-display">
-<div id="fig-pr" class="quarto-float quarto-figure quarto-figure-center anchored">
+<p>Together, these sources reveal a clear upward shift in fire-weather risk.<br>
+Across all datasets, extreme FWI seasons are roughly <strong>30% more likely</strong> in the present climate, and <strong>extreme heat events</strong> occur about <strong>twice as often</strong>, while dryness signals remain weak or uncertain.</p>
+<hr>
+</section>
+<section id="analysis" class="level2">
+<h2 class="anchored" data-anchor-id="analysis">📈 Analysis</h2>
+<section id="figure-1-probability-ratio-pr" class="level3">
+<h3 class="anchored" data-anchor-id="figure-1-probability-ratio-pr">🔹 Figure 1 – Probability Ratio (PR)</h3>
+<div id="fig-fwi" class="quarto-float quarto-figure quarto-figure-center anchored" width="90%">
 <figure class="quarto-float quarto-float-fig figure">
-<div aria-describedby="fig-pr-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<img src="2025-10-06-bushfire-risk_files/figure-html/fig-pr-1.png" class="img-fluid figure-img" width="672">
+<div aria-describedby="fig-fwi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<img src="../image/bushfire_PR.png" id="fig-fwi" class="img-fluid figure-img" style="width:90.0%">
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig" id="fig-pr-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figure&nbsp;1: Estimated Probability Ratio (PR) for an extreme FWI season under current vs pre-industrial climate.
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-fig quarto-uncaptioned" id="fig-fwi-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figure&nbsp;1
 </figcaption>
 </figure>
 </div>
-</div>
-</div>
+<p><strong><a href="#fig-fwi" class="quarto-xref">Figure&nbsp;1</a>.</strong> Probability ratio (PR) for an FWI as high as observed in 2019–20 or higher, based on multiple climate models.<br>
+<em>Source: van Oldenborgh et al.&nbsp;(2021), Figure 6(a).</em></p>
+<p>As shown in <a href="#fig-fwi" class="quarto-xref">Figure&nbsp;1</a>, all five model ensembles (ERA5, CanESM2, EC-Earth, IPSL-CM6, and weather@home) show <strong>PR &gt; 1</strong>, meaning extreme fire-weather seasons are now more likely than before industrialisation.</p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
