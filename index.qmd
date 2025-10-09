@@ -1,5 +1,5 @@
 ---
-title: "ETC5523 Blog Assessment"
+title: "Data Stories by Yao Lu"
 listing:
   contents: posts
   sort: "date desc"
@@ -12,3 +12,14 @@ title-block-banner: true
 ---
 
 
+Welcome to my ETC5523 Data Story Blog! 🌏  
+
+Here you’ll find my data communication projects developed as part of  
+**Monash University’s ETC5523 — Communicating with Data.**
+
+You can read my latest post here 👇  
+➡️ [Has Climate Change Raised the Risk of Extreme Bushfire Weather in Australia?](posts/2025-10-06-bushfire-risk.html)
+
+---
+
+*Built with [Quarto](https://quarto.org/) and published on Quarto Pub for ETC5523 assessment.*

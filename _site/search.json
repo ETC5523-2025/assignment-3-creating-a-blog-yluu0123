@@ -16,9 +16,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "ETC5523 Blog Assessment",
+    "title": "Data Stories by Yao Lu",
     "section": "",
-    "text": "Has Climate Change Raised the Risk of Extreme Bushfire Weather in Australia?\n\n\n\nAustralia\n\nClimate\n\nRisk\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nYao Lu\n\n\n\n\n\nNo matching items"
+    "text": "Welcome to my ETC5523 Data Story Blog! 🌏\nHere you’ll find my data communication projects developed as part of\nMonash University’s ETC5523 — Communicating with Data.\nYou can read my latest post here 👇\n➡️ Has Climate Change Raised the Risk of Extreme Bushfire Weather in Australia?\n\nBuilt with Quarto and published on Quarto Pub for ETC5523 assessment.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBlog\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHas Climate Change Raised the Risk of Extreme Bushfire Weather in Australia?\n\n\n\nAustralia\n\nClimate\n\nRisk\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nYao Lu\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/2025-10-06-bushfire-risk.html",
@@ -68,5 +68,12 @@
     "title": "Has Climate Change Raised the Risk of Extreme Bushfire Weather in Australia?",
     "section": "🧠 Conclusion",
     "text": "🧠 Conclusion\nHuman-induced climate change has shifted Australia’s baseline bushfire risk upward.\nEven though natural variability still affects individual seasons, the overall odds are now “loaded” toward hotter, more dangerous summers.\nTo prepare for this new normal, researchers and decision-makers should:\n1. Integrate climate-scenario data into bushfire management and planning.\n2. Strengthen early-warning systems and community education.\n3. Continue fuel-load and land-use management to reduce fire intensity.\nAs (Oldenborgh et al. 2021) and (Dowdy 2018) highlight, adapting to this warmer world requires both mitigation of greenhouse emissions and practical resilience strategies.\n\nThis post was created as part of Monash University’s ETC5523 unit — Communicating with Data."
+  },
+  {
+    "objectID": "posts/index.html",
+    "href": "posts/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Welcome to my data storytelling blog! ✨\nHere you’ll find my latest posts on communicating with data and analytics.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHas Climate Change Raised the Risk of Extreme Bushfire Weather in Australia?\n\n\n\nAustralia\n\nClimate\n\nRisk\n\n\n\n\n\n\n\n\n\nOct 6, 2025\n\n\nYao Lu\n\n\n\n\n\nNo matching items"
   }
 ]
