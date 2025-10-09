@@ -75,7 +75,7 @@ As [@Oldenborgh2021] and [@Dowdy2018] highlight, adapting to this warmer world r
 
 ---
 
-*This post was written as part of Monash Un44iversity’s ETC5523 — Communicating with Data assessment.*
+*This post was created as part of Monash University’s ETC5523 unit — Communicating with Data.*
 
 ## 📚 References
 
