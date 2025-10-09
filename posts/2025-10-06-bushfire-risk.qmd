@@ -4,6 +4,7 @@ author: "Yao Lu"
 date: 2025-10-06
 categories: [Australia, Climate, Risk]
 image: ../image/bushfire_PR.png
+bibliography: ../references.bib
 ---
 
 
@@ -11,7 +12,7 @@ image: ../image/bushfire_PR.png
 
 Australia’s **2019–20 “Black Summer”** bushfires were among the most devastating in history—34 people lost their lives, thousands of homes were destroyed, and millions of hectares burned.  
 These events raised an urgent question:  
-> *Has climate change increased the likelihood of extreme bushfire weather in southeast Australia?*
+> *Has climate change increased the likelihood of extreme bushfi44re weather in southeast Australia?*
 
 This blog summarises the findings of *van Oldenborgh et al.* (2021), who combined observed weather records and climate-model simulations to quantify the human influence on bushfire risk.  
 Their results show that the probability of an **extreme Fire Weather Index (FWI) season** is now **about 30% higher** than it was in a pre-industrial climate.
@@ -38,8 +39,43 @@ Across all datasets, extreme FWI seasons are roughly **30% more likely** in the 
 ![](../image/bushfire_PR.png){#fig-fwi width="90%"}
 
 **@fig-fwi.**  Probability ratio (PR) for an FWI as high as observed in 2019–20 or higher, based on multiple climate models.  
+
 *Source: van Oldenborgh et al. (2021), Figure 6(a).*
 
-As shown in @fig-fwi, all five model ensembles (ERA5, CanESM2, EC-Earth, IPSL-CM6, and weather@home) show **PR > 1**, meaning extreme fire-weather seasons are now more likely than before industrialisation.
 
+As shown in @fig-fwi, all five model ensembles (ERA5, CanESM2, EC-Earth, IPSL-CM6, and weather@home) show **PR > 1**, meaning extreme fire-weather seasons are now more likely than before industrialization.
+
+### 🔹 Table 1 – Key Findings
+
+Table: Summary of the main attribution results for southeast Australia. {#tbl-summary}
+
+| Factor               | Finding              | Interpretation                  |
+|----------------------|----------------------|---------------------------------|
+| Extreme FWI season   | PR ≈ **1.3** (+30%)  | Higher baseline fire risk       |
+| Extreme heat events  | ≈ **2×** frequency   | More heat-driven danger days    |
+| Dryness signal       | **Weak / uncertain** | Drought less determinant        |
+
+@tbl-summary summaries the evidence in plain language.  
+Together, these findings directly address the original question:  
+**Yes — climate change has measurably increased the likelihood of extreme fire-weather seasons.**
+
+---
+
+## 🧠 Conclusion
+
+Human-induced climate change has **shifted Australia’s baseline bushfire risk upward**.  
+Even though natural variability still affects individual seasons, the overall odds are now “loaded” toward hotter, more dangerous summers.  
+
+To prepare for this new normal, researchers and decision-makers should:  
+1. Integrate climate-scenario data into bushfire management and planning.  
+2. Strengthen early-warning systems and community education.  
+3. Continue fuel-load and land-use management to reduce fire intensity.
+
+As [@Oldenborgh2021] and [@Dowdy2018] highlight, adapting to this warmer world requires both mitigation of greenhouse emissions and practical resilience strategies.
+
+---
+
+*This post was written as part of Monash Un44iversity’s ETC5523 — Communicating with Data assessment.*
+
+## 📚 References
 

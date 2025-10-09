@@ -22,7 +22,27 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+  margin-bottom: 0em;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="../site_libs/quarto-nav/quarto-nav.js"></script>
@@ -167,7 +187,10 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#analysis" id="toc-analysis" class="nav-link" data-scroll-target="#analysis">📈 Analysis</a>
   <ul class="collapse">
   <li><a href="#figure-1-probability-ratio-pr" id="toc-figure-1-probability-ratio-pr" class="nav-link" data-scroll-target="#figure-1-probability-ratio-pr">🔹 Figure 1 – Probability Ratio (PR)</a></li>
+  <li><a href="#table-1-key-findings" id="toc-table-1-key-findings" class="nav-link" data-scroll-target="#table-1-key-findings">🔹 Table 1 – Key Findings</a></li>
   </ul></li>
+  <li><a href="#conclusion" id="toc-conclusion" class="nav-link" data-scroll-target="#conclusion">🧠 Conclusion</a></li>
+  <li><a href="#references" id="toc-references" class="nav-link" data-scroll-target="#references">📚 References</a></li>
   </ul>
 </nav>
     </div>
@@ -182,7 +205,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="problem-description">🔥 Problem Description</h2>
 <p>Australia’s <strong>2019–20 “Black Summer”</strong> bushfires were among the most devastating in history—34 people lost their lives, thousands of homes were destroyed, and millions of hectares burned.<br>
 These events raised an urgent question:<br>
-&gt; <em>Has climate change increased the likelihood of extreme bushfire weather in southeast Australia?</em></p>
+&gt; <em>Has climate change increased the likelihood of extreme bushfi44re weather in southeast Australia?</em></p>
 <p>This blog summarises the findings of <em>van Oldenborgh et al.</em> (2021), who combined observed weather records and climate-model simulations to quantify the human influence on bushfire risk.<br>
 Their results show that the probability of an <strong>extreme Fire Weather Index (FWI) season</strong> is now <strong>about 30% higher</strong> than it was in a pre-industrial climate.</p>
 <hr>
@@ -215,15 +238,85 @@ Figure&nbsp;1
 </figcaption>
 </figure>
 </div>
-<p><strong><a href="#fig-fwi" class="quarto-xref">Figure&nbsp;1</a>.</strong> Probability ratio (PR) for an FWI as high as observed in 2019–20 or higher, based on multiple climate models.<br>
-<em>Source: van Oldenborgh et al.&nbsp;(2021), Figure 6(a).</em></p>
-<p>As shown in <a href="#fig-fwi" class="quarto-xref">Figure&nbsp;1</a>, all five model ensembles (ERA5, CanESM2, EC-Earth, IPSL-CM6, and weather@home) show <strong>PR &gt; 1</strong>, meaning extreme fire-weather seasons are now more likely than before industrialisation.</p>
+<p><strong><a href="#fig-fwi" class="quarto-xref">Figure&nbsp;1</a>.</strong> Probability ratio (PR) for an FWI as high as observed in 2019–20 or higher, based on multiple climate models.</p>
+<p><em>Source: van Oldenborgh et al.&nbsp;(2021), Figure 6(a).</em></p>
+<p>As shown in <a href="#fig-fwi" class="quarto-xref">Figure&nbsp;1</a>, all five model ensembles (ERA5, CanESM2, EC-Earth, IPSL-CM6, and weather@home) show <strong>PR &gt; 1</strong>, meaning extreme fire-weather seasons are now more likely than before industrialization.</p>
+</section>
+<section id="table-1-key-findings" class="level3">
+<h3 class="anchored" data-anchor-id="table-1-key-findings">🔹 Table 1 – Key Findings</h3>
+<div id="tbl-summary" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-tbl figure">
+<figcaption class="quarto-float-caption-top quarto-float-caption quarto-float-tbl" id="tbl-summary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Table&nbsp;1: Summary of the main attribution results for southeast Australia.
+</figcaption>
+<div aria-describedby="tbl-summary-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<table class="caption-top table">
+<colgroup>
+<col style="width: 28%">
+<col style="width: 28%">
+<col style="width: 42%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Factor</th>
+<th>Finding</th>
+<th>Interpretation</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Extreme FWI season</td>
+<td>PR ≈ <strong>1.3</strong> (+30%)</td>
+<td>Higher baseline fire risk</td>
+</tr>
+<tr class="even">
+<td>Extreme heat events</td>
+<td>≈ <strong>2×</strong> frequency</td>
+<td>More heat-driven danger days</td>
+</tr>
+<tr class="odd">
+<td>Dryness signal</td>
+<td><strong>Weak / uncertain</strong></td>
+<td>Drought less determinant</td>
+</tr>
+</tbody>
+</table>
+</div>
+</figure>
+</div>
+<p><a href="#tbl-summary" class="quarto-xref">Table&nbsp;1</a> summaries the evidence in plain language.<br>
+Together, these findings directly address the original question:<br>
+<strong>Yes — climate change has measurably increased the likelihood of extreme fire-weather seasons.</strong></p>
+<hr>
+</section>
+</section>
+<section id="conclusion" class="level2">
+<h2 class="anchored" data-anchor-id="conclusion">🧠 Conclusion</h2>
+<p>Human-induced climate change has <strong>shifted Australia’s baseline bushfire risk upward</strong>.<br>
+Even though natural variability still affects individual seasons, the overall odds are now “loaded” toward hotter, more dangerous summers.</p>
+<p>To prepare for this new normal, researchers and decision-makers should:<br>
+1. Integrate climate-scenario data into bushfire management and planning.<br>
+2. Strengthen early-warning systems and community education.<br>
+3. Continue fuel-load and land-use management to reduce fire intensity.</p>
+<p>As <span class="citation" data-cites="Oldenborgh2021">(<a href="#ref-Oldenborgh2021" role="doc-biblioref">Oldenborgh et al. 2021</a>)</span> and <span class="citation" data-cites="Dowdy2018">(<a href="#ref-Dowdy2018" role="doc-biblioref">Dowdy 2018</a>)</span> highlight, adapting to this warmer world requires both mitigation of greenhouse emissions and practical resilience strategies.</p>
+<hr>
+<p><em>This post was written as part of Monash Un44iversity’s ETC5523 — Communicating with Data assessment.</em></p>
+</section>
+<section id="references" class="level2">
+
+
 
 
 </section>
-</section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">📚 References</h2><div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
+<div id="ref-Dowdy2018" class="csl-entry" role="listitem">
+Dowdy, A. J. 2018. <span>“Climatological Variability of Fire Weather in Australia.”</span> <em>Journal of Applied Meteorology and Climatology</em> 57 (2): 221–34.
+</div>
+<div id="ref-Oldenborgh2021" class="csl-entry" role="listitem">
+Oldenborgh, G. J. van et al. 2021. <span>“Attribution of the Australian Bushfire Risk to Anthropogenic Climate Change.”</span> <em>Natural Hazards and Earth System Sciences</em> 21: 941–60.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
