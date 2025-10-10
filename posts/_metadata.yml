@@ -6,3 +6,11 @@ freeze: true
 
 # Enable banner style title blocks
 title-block-banner: true
+
+# Default settings for all posts
+author: "Yao Lu"
+format:
+  html:
+    toc: true
+    toc-location: right
+    code-fold: true
